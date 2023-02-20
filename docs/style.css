@@ -1,0 +1,125 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.homepage {
+  float: left;
+  font-size: 25px; 
+}
+
+.fontMenu {
+   font-size: 22px;
+}
+
+.section {
+  padding-left: 150px; 
+  padding-top: 30px; 
+  width: 100%;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button5 
+{
+   background-color: black;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 69%;
+  padding-right: 100px;
+  height: 160px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column1 {
+  padding-top: 70px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.columnImage {
+  float: left;
+  width: 60%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.rowImage:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .columnImage, .columnImage1  {
+    width: 100%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columnImage, .columnImage1  {
+    width: 100%;
+  }
+}
+
+.sectionTwo {
+   padding: 0px 150px;
+}
+
+.columnImage1 {
+   float: left;
+  width: 40%;
+  padding: 10px;
+}
+
+.imgWidth {
+   width: 100%
+}
+
+.imgHeight {
+   height: 280px;
+}
